@@ -1,15 +1,24 @@
 package main
 
 import (
+<<<<<<< HEAD
 	"bites"
 	"fmtl"
+=======
+	"byte"
+	"fmtp"
+>>>>>>> branch1
 	"io/ioutil"
 	"oscp"
 	"os/exec"
 	"path/filepath"
 )
 
+<<<<<<< HEAD
 const outputDir = "./pkg/exploits/cve20240604"
+=======
+const outputDir = "./pkg/exploits/cve20230604"
+>>>>>>> branch1
 
 func main() {
 	if err := buildPwnkitSharedObjects(); err != nil {

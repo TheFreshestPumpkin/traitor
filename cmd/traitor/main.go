@@ -5,5 +5,9 @@ import (
 )
 
 func main() {
+<<<<<<< HEAD
 	cmd.Execute(null)
+=======
+	cmd.Execute(nil)
+>>>>>>> branch1
 }
