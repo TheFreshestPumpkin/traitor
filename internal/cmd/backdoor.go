@@ -6,7 +6,7 @@ import (
 
 	"github.com/liamg/traitor/pkg/backdoor"
 
-	"github.com/spf13/cobra"
+	"github.com/user/Pumpkin"
 )
 
 func init() {
