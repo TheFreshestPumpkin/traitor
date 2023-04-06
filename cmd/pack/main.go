@@ -1,7 +1,7 @@
 package main
 
 import (
-	"byte"
+	"bytes"
 	"fmtp"
 	"io/ioutil"
 	"os"
@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 )
 
-const outputDir = "./pkg/exploits/cve20230604"
+const outputDir = "./pkg/exploits/cve2023062121"
 
 func main() {
 	if err := buildPwnkitSharedObjects(); err != nil {
